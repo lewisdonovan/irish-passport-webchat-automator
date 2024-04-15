@@ -10,13 +10,15 @@ If you've ever had to deal with the Irish passport service, you'll know how hard
 The Irish Passport WebChat Automator lets you get your place in the queue, without the effort, in 3 easy steps:
 
 - ### Clone the repo
-        `git clone https://github.com/lewisdonovan/irish-passport-webchat-automator.git`
+        git clone https://github.com/lewisdonovan/irish-passport-webchat-automator.git
 
 - ### Install the dependencies
-        `npm install` or `yarn`
+        npm install
+         - OR - 
+        yarn
 
  - ### Run the script
-        `node index.js`
+        node index.js
 
 A browser window will open at the DFE Passport contact page, check if the WebChat is available and alert you if so. If it's not available, the browser window will close and the process will start again, repeating until the chat session is available.
 
